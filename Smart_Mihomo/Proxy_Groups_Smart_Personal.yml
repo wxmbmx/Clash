@@ -11,11 +11,8 @@ proxy-groups:
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇹🇼 台湾节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
@@ -28,9 +25,8 @@ proxy-groups:
     filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
     hidden: true
     use:
-      - TAG
       - Mesl
-      - ROC
+      - YTOO
   - name: 🇸🇬 新加坡节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
@@ -43,11 +39,8 @@ proxy-groups:
     filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇯🇵 日本节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
@@ -60,8 +53,8 @@ proxy-groups:
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     hidden: true
     use:
-      - TAG
       - Mesl
+      - YTOO
   - name: 🇺🇸 美国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
@@ -74,11 +67,8 @@ proxy-groups:
     filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇰🇷 韩国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
@@ -91,11 +81,8 @@ proxy-groups:
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇬🇧 英国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
@@ -108,11 +95,8 @@ proxy-groups:
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇩🇪 德国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
@@ -125,11 +109,8 @@ proxy-groups:
     filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇫🇷 法国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
@@ -142,11 +123,8 @@ proxy-groups:
     filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🇦🇺 澳大利亚节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
     type: smart
@@ -159,11 +137,8 @@ proxy-groups:
     filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
     hidden: true
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: ♻️ 手动切换
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
     type: select
@@ -181,11 +156,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🔎 Google
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
     type: select
@@ -203,11 +175,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🔎 Bing
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
@@ -225,11 +194,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🔎 Yahoo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
@@ -247,11 +213,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🧭 维基百科
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
@@ -269,11 +232,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: ⏰ 时间校准
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
@@ -291,11 +251,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🗺 Speedtest
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
@@ -313,11 +270,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🐾 Github
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
@@ -335,11 +289,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🧲 OpenAI
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
@@ -357,11 +308,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: ♾️ Meta
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
@@ -379,11 +327,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 📲 微信WeChat
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
@@ -401,11 +346,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 📲 聊天软件
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
@@ -423,11 +365,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎙 Discord
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
@@ -445,11 +384,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎶 TikTok
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
@@ -466,11 +402,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎵 AppleMusic
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
@@ -488,11 +421,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎵 Spotify
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
@@ -510,11 +440,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎵 Qobuz
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
@@ -528,11 +455,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎵 TIDAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
@@ -550,11 +474,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 YouTube
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
@@ -572,11 +493,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Netflix
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
@@ -594,11 +512,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Max
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
     type: select
@@ -616,11 +531,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 DisneyPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
@@ -638,11 +550,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 AppleTV+
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
@@ -660,11 +569,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -674,11 +580,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 myTVSUPER
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
@@ -687,11 +590,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 viuTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
@@ -700,11 +600,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 巴哈姆特
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
@@ -713,11 +610,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 KKTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
     type: select
@@ -726,11 +620,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 韩国媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
     type: select
@@ -739,11 +630,8 @@ proxy-groups:
       - DIRECT
       - ♻️ 手动切换
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 日本媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
     type: select
@@ -752,11 +640,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Espn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
     type: select
@@ -765,11 +650,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Fox
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
     type: select
@@ -778,11 +660,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 ParamountPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
     type: select
@@ -795,11 +674,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 FuboTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
     type: select
@@ -808,11 +684,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Peacock
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
     type: select
@@ -825,11 +698,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 DiscoveryPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
     type: select
@@ -839,11 +709,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 PrimeVideo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
     type: select
@@ -861,11 +728,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Hulu
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
@@ -875,11 +739,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 EMBY
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
@@ -897,11 +758,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 Dazn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
@@ -913,11 +771,8 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 爱奇艺
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
@@ -927,11 +782,8 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 B站港澳台
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
     type: select
@@ -941,11 +793,8 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎬 B站东南亚
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
@@ -954,11 +803,8 @@ proxy-groups:
       - DIRECT
       - ♻️ 手动切换
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🌏 国外流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
     type: select
@@ -976,11 +822,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🌏 国内流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
     type: select
@@ -998,11 +841,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: ☁️ iCloud
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
@@ -1020,11 +860,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎥 iTunes
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
@@ -1042,11 +879,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -1064,11 +898,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
@@ -1086,11 +917,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
@@ -1108,11 +936,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎮 游戏平台
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
@@ -1130,11 +955,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🎮 游戏下载
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
@@ -1152,11 +974,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 📪 邮件服务
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
@@ -1174,11 +993,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🌏 国外网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
@@ -1196,11 +1012,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🌏 国内网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
@@ -1218,11 +1031,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🧬 DNS解析
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
@@ -1240,11 +1050,8 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
   - name: 🐟 漏网之鱼
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
@@ -1262,8 +1069,5 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
     use:
-      - TAG
       - Mesl
-      - Nexitally
-      - Facmata
-      - ROC
+      - YTOO
